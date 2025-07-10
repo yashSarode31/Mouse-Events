@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#myBox{
+    background-color: lightgreen;
+    width: 300px;
+    height: 300px;
+    font-size: 4.1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+     transition: all 0.3s ease;
+}
+#myButton{
+    font-size: 3rem;
+}
